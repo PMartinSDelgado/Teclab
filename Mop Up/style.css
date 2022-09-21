@@ -1,0 +1,71 @@
+header{
+    background: url(fondo1.jpg);
+    padding: 10px 0;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+nav{
+    position: absolute;
+    width: 900px;
+    margin: 0 auto;
+    top: 140px;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 60px;
+}
+nav a{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    color: rgb(254, 254, 254);
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration:none;
+}
+nav a:hover{
+    color: #f9f648;
+    text-decoration: underline;
+}
+
+.medio li{
+    display: inline-block;
+    text-align: center;
+    width: 49%;
+    vertical-align: top;
+    padding: 30px 0px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-top-width: 10px;
+    border-radius: 20px;
+
+}
+.medio{
+    margin: 0 200px auto;
+    padding: 80px;
+}
+.medio h2{
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0 190px auto;
+    color: black;
+}
+.medio h2:hover{
+    color: #f9f648;
+    text-decoration: underline;
+    font-size: 27px;
+}
+.medio h2:active{
+    color: rgb(128, 0, 0);
+}
+footer{
+    text-align: center;
+    background: url(Logosinfondo/bg.jpg);
+    padding: 10px;
+}
+.copy{
+    color:aliceblue;
+    font-size: 13px;
+}

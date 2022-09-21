@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8"> 
+        <title>Contacto</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="stylecontacto.css">
+        <img class="imagen" src="imagenfondo3.jfif">
+    </head>
+
+    <main>
+        <form>
+            <label for="nombreyapellido">Name and Surname</label>
+            <input type="text" id="nombreyapellido" class="input-padron" required>
+            
+            <label for="email">E-mail</label>
+            <input type="email" id="email" class="input-padron" required placeholder="email@domain.com">
+
+            <label for="telefono">Phone number</label>
+            <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX">
+
+            <label for="mensaje">Message</label>
+            <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>
+
+            <fieldset>
+                 <legend>How would you like us to contact you?</legend>
+
+                <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">E-mail</label>
+                
+                 <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Phone</label>
+               
+                 <label for="radio-whatsapp"><input type="radio" name="contacto" value="email" id="radio-whatsapp" checked>Whatsapp</label>
+                   
+            </fieldset>     
+            <fieldset>
+                <legend class="horario">What business hours do you prefer?</legend>
+                <select>
+                    <option>Morning</option>
+                    <option>Afternoon</option>
+                    <option>Night</option>
+                </select>
+            </fieldset>
+            <label class="checkbox"><input type="checkbox" checked>Would you like to receive news from Mop Up?</label>
+            
+            <input type="submit" value="Send Form" class="enviar">    
+
+        </form>
+
+    </main>
+  
+</html>
